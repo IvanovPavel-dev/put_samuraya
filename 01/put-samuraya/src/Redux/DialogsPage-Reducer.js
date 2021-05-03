@@ -11,7 +11,7 @@ let initialState = {
         {id: 6, name: 'Babushka2'}
     ],
     messages: [
-        {id: 1, message: 'perdeyozh'},
+        {id: 1, message: 'But i can see you every night free'},
         {id: 2, message: 'Hello'},
         {id: 3, message: 'sektor gaza'},
         {id: 4, message: 'hi'},

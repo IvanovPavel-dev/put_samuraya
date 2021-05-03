@@ -9,7 +9,7 @@ let store = {
                 {id: 1, message: 'wazzup! Bro!', likeCounter: 12},
                 {id: 2, message: 'today is my birthday!', likeCounter: 32},
                 {id: 3, message: 'pupa i lupa', likeCounter: 2},
-                {id: 4, message: 'ZALUPA', likeCounter: 74}
+                {id: 4, message: '123456t78', likeCounter: 74}
             ],
             newPostText: 'apostol rulezzz'
         },
