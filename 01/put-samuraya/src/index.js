@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
 import {Provider} from "react-redux";
 
-let rerenderEntireTrie = (state) => {
+
     ReactDOM.render(
         <BrowserRouter>
             <React.StrictMode>
@@ -17,14 +17,8 @@ let rerenderEntireTrie = (state) => {
                 </Provider>
             </React.StrictMode>
         </BrowserRouter>,
-        document.getElementById('root')
-    );
-}
+        document.getElementById('root'))
+
 reportWebVitals();
-
-
-rerenderEntireTrie(store.getState());
-
-store.subscribe(rerenderEntireTrie);
 
 reportWebVitals();
